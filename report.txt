@@ -1,0 +1,51 @@
+Размер датасета: (149, 8)
+<class 'pandas.DataFrame'>
+RangeIndex: 149 entries, 0 to 148
+Data columns (total 8 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Unnamed: 0                149 non-null    int64  
+ 1   age                       149 non-null    float64
+ 2   anaemia                   149 non-null    int64  
+ 3   diabetes                  149 non-null    int64  
+ 4   ejection fraction         149 non-null    int64  
+ 5   high bp                   149 non-null    int64  
+ 6   creatinine phosphokinase  149 non-null    int64  
+ 7   ejection fraction.1       149 non-null    int64  
+dtypes: float64(1), int64(7)
+memory usage: 9.4 KB
+
+Пропуски по колонкам:
+Unnamed: 0                  0
+age                         0
+anaemia                     0
+diabetes                    0
+ejection fraction           0
+high bp                     0
+creatinine phosphokinase    0
+ejection fraction.1         0
+
+Статистика для счётных колонок (среднее; медиана; std):
+Колонка> среднее; медиана; отклонение
+Unnamed: 0> 74.00; 74.00; 43.16
+age> 62.97; 60.00; 12.53
+ejection fraction> 37.97; 38.00; 13.12
+creatinine phosphokinase> 596.05; 246.00; 1189.96
+ejection fraction.1> 37.97; 38.00; 13.12
+
+Категориальные признаки:
+
+anaemia:
+anaemia
+0    78
+1    71
+
+diabetes:
+diabetes
+0    89
+1    60
+
+high bp:
+high bp
+0    87
+1    62
